@@ -19,7 +19,6 @@ form {
    min-width: 500px;
    max-width: 500px;
    max-height: 550px;
-
    background-color: rgb(243, 240, 240);
 }
 
@@ -52,4 +51,5 @@ label {
    max-width: 100vh;
    padding: 2rem;
    font-weight: 400;
+   font-family: var(--ff-text);
 }
