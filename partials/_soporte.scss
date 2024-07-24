@@ -1,0 +1,128 @@
+.contenedor-soporte {
+    background-image: url(../img/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "soporte-title soporte-foto soporte-parrafo9";
+    gap: 1rem;
+    align-items: center;
+}
+
+.soporte-title {
+    grid-area: soporte-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.soporte-foto {
+    grid-area: soporte-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-soporte1 {
+    border-radius: 35px;
+    max-width: 500px;
+    border: 2px solid white;
+
+}
+
+.soporte-parrafo9 {
+    color: white;
+    grid-area: soporte-parrafo9;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
+
+.contenedor-mantenimiento {
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "mantenimiento-title soporte-foto soporte-parrafo10";
+    gap: 1rem;
+    align-items: center;
+}
+
+.mantenimiento-title {
+    grid-area: mantenimiento-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.mantenimiento-foto {
+    grid-area: mantenimiento-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-mantenimiento1 {
+    border-radius: 35px;
+    max-width: 500px;
+    border: 2px solid white;
+
+}
+
+.soporte-parrafo10 {
+    color: white;
+    grid-area: soporte-parrafo10;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
+
+.contenedor-soporte2 {
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "mantenimiento-title soporte-foto soporte-parrafo10";
+    gap: 1rem;
+    align-items: center;
+}
+
+.soporte-title2 {
+    grid-area: mantenimiento-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.soporte-foto2 {
+    grid-area: soporte-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-soporte2 {
+    border-radius: 35px;
+    max-width: 500px;
+    border: 2px solid white;
+
+}
+
+.soporte-parrafo11 {
+    color: white;
+    grid-area: soporte-parrafo11;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}

@@ -1,0 +1,172 @@
+.contenedor-servidores {
+    background-image: url(../img/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "servidores-title servidores-foto servidores-parrafo5";
+    gap: 1rem;
+    align-items: center;
+}
+
+.servidores-title {
+    grid-area: servidores-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.servidores-foto {
+    grid-area: servidores-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-servidor1 {
+    border-radius: 35px;
+    max-width: 500px;
+    border: 2px solid white;
+
+}
+
+.servidores-parrafo5 {
+    color: white;
+    grid-area: servidores-parrafo5;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
+
+
+.contenedor-hardware {
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "hardware-title hardware-foto hardware-parrafo6";
+    gap: 1rem;
+    align-items: center;
+}
+
+.hardware-title {
+    grid-area: hardware-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.hardware-foto {
+    grid-area: hardware-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-hardware1 {
+    border-radius: 35px;
+    max-width: 500px;
+    max-height: 496px;
+    border: 2px solid white;
+}
+
+.hardware-parrafo6 {
+    color: white;
+    grid-area: hardware-parrafo6;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
+
+.contenedor-notebooks {
+    background-image: url(../img/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "notebooks-title notebooks-foto notebooks-parrafo7";
+    gap: 1rem;
+    align-items: center;
+}
+
+.notebooks-title {
+    grid-area: hardware-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.notebooks-foto {
+    grid-area: hardware-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-notebooks1 {
+    border-radius: 35px;
+    max-width: 500px;
+    max-height: 496px;
+    border: 2px solid white;
+}
+
+.notebooks-parrafo7 {
+    color: white;
+    grid-area: hardware-parrafo6;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
+
+.contenedor-networking {
+    background-image: url(../img/fondo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "networking-title networking-foto networking-parrafo8";
+    gap: 1rem;
+    align-items: center;
+}
+
+.networking-title {
+    grid-area: networking-title;
+    color: white;
+    text-align: center;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+}
+
+.networking-foto {
+    grid-area: networking-foto;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    padding: 3rem;
+}
+
+.foto-networking1 {
+    border-radius: 35px;
+    max-width: 500px;
+    max-height: 496px;
+    border: 2px solid white;
+}
+
+.networking-parrafo8 {
+    color: white;
+    grid-area: networking-parrafo8;
+    grid-row: 2 / 2;
+    grid-column: 2 / 5;
+    padding: 1rem;
+}
